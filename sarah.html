@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sarah Smith</title>
+    <style>
+      .profile {
+        width: 100px;
+        border-radius: 5px;
+        float: left;
+        margin-left: 20px;
+        margin-right: 25px;
+        margin-top: 12px;
+      }
+
+      .name {
+        padding-top: 15px;
+        color: rgb(75, 75, 75);
+        margin-bottom: 14px;
+      }
+
+      .gmail {
+        width: 48px;
+        height: 36px;
+        margin-top: 100px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        object-fit: cover;
+        box-shadow: -2px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      .linked {
+        width: 40px;
+        height: 40px;
+        margin-top: 100px;
+        margin-bottom: 14px;
+        border-radius: 48px;
+        object-fit: cover;
+        box-shadow: -3px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      .linked:hover {
+        opacity: 0.8;
+        transition: opacity 0.15s;
+      }
+
+      .gmail:hover {
+        opacity: 0.8;
+        transition: opacity 0.15s;
+      }
+
+      .button {
+        padding: 0.5px 0.5px;
+        border-radius: 4px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        cursor: pointer;
+        border: outset;
+        color: rgb(75, 75, 75);
+      }
+
+      .button:hover {
+        opacity: 0.8;
+        transition: opacity 0.15;
+      }
+      .introduction {
+        font-size: 13px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: rgb(75, 75, 75);
+        
+      }
+
+      .intro{
+        background-color: white;
+        border-radius: 10px;
+        width: 810px;
+        height: 150px;
+        box-shadow: -3px 2px rgba(0, 0, 0, 0.2);
+        margin-left: 120px;
+      }
+
+      .begin {
+        background-color: white;
+        border-radius: 8px;
+        width: 400px;
+        height: 140px;
+        box-shadow: -3px 2px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(185, 184, 184)">
+    <header>
+      <img
+        class="profile"
+        src="images/CopyOfProfilePic.jpg"
+        alt="An image of Sarah Smith"
+      />
+      <section class="begin">
+        <h1 class="name">Sarah Smith</h1>
+        <button
+          class="button"
+          onclick="window.location.href='company/about.html'"
+        >
+          About me
+        </button>
+        <button
+          class="button"
+          onclick="window.location.href='company/resume.html'"
+        >
+          Resume
+        </button>
+        <button
+          class="button"
+          onclick="window.location.href='company/picgal.html'"
+        >
+          Picture Gallery
+        </button>
+        <h3 style="color: rgb(75, 75, 75)">Welcome!</h3>
+      </section>
+    </header>
+    <main>
+      <article>
+        <section class="intro">
+          <p class="introduction">
+            This portfolio serves as a glimpse into the array of skills and
+            capabilities I possess, yet it barely scratches the surface of my
+            potential. I am deeply committed to continuous improvement and skill
+            refinement, constantly seeking opportunities to expand my knowledge
+            and expertise. I'm all about growth, constantly pushing boundaries
+            and learning new things. So when you look at what I've got here,
+            think of it as the tip of the iceberg – there's a whole world of
+            potential waiting to be unleashed.<br />
+            <br />
+            I wish to align myself with a progressive and forward-thinking
+            company with a collaborative environment where my talents can
+            flourish, and where I can actively engage in solving complex
+            challenges and driving positive change.
+          </p>
+        </section>
+      </article>
+    </main>
+    <a href="mailto:sarahang@gmail.com" target="_blank">
+      <img class="gmail" src="images/gmailpic.png" alt="gmail image" />
+    </a>
+    <a
+      href="https://www.linkedin.com/in/sarah-smith-86b34b243/"
+      target="_blank"
+    >
+      <img class="linked" src="images/linkedin.png" alt="linkedin images" />
+    </a>
+  </body>
+  <footer style="font-size: small">
+    <a href="#">Jump to top</a>
+  </footer>
+</html>
